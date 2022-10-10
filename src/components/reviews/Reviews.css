@@ -1,0 +1,40 @@
+.reviews form div {
+     display: flex;
+
+}
+
+.reviews textarea{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 1005px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+     
+}
+
+.reviews textarea,
+.reviews input{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 10px; 
+}
+
+.reviews form{
+     padding: 30px;
+}
+
+.reviews h4 {
+
+    margin-bottom: 30px;
+}
+
+.reviewsText {
+padding: 30px;
+margin: auto;
+border: 0.5px solid;
+border-color:rgba(0, 0, 0, 0.248);
+box-shadow:inset;
+border-radius: 5px;
+margin-top: 20px;
+width:75%;
+text-align: justify;
+}
