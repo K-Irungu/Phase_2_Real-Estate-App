@@ -137,11 +137,6 @@ img {
     margin-bottom: 80px;
 }
 
-
-
-
-
-
 .grid5 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
