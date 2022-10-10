@@ -2,15 +2,10 @@ import React, { useState } from 'react'
 import Hero from './Hero/Hero'
 import Properties from './Properties/Properties'
 
-//Here, we define the function handleFilter, in which we passed the user input => (searchInfo), within the Hero component
-
-
 const Home = () => {
 
- 
-  const [filter, setFilter] = useState('')
-  function handleFilter(searchInfo) {setFilter(searchInfo)}
-
+  const [filter, setFilter] = useState('');
+  function handleFilter(searchInfo) {setFilter(searchInfo)};
 
   return (
     <>
@@ -20,4 +15,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
