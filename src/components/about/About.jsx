@@ -18,8 +18,7 @@ const About = () => {
             </p>
 
             <p>
-              Over the past couple of decades, we have been consistent in our objective of contributing our quota to the development of Kenya's economy as well as the state of living for many individuals and corporate clients through invesment in real estate.
-              Our portfolio is well-balanced, comprising a combination of residential, commercial and mixed-use properties. We have managed to gain gppd reputation in the real estate industry as we deliver a service that provides integrity, professionalism and peace of mind to our clients.
+              Our portfolio is well-balanced, comprising a combination of residential, commercial and mixed-use properties. We have managed to gain good reputation in the real estate industry as we deliver a service that provides integrity, professionalism and peace of mind to our clients.
             </p>
           </div>
 
