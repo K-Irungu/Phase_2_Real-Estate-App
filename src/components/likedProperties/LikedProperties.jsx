@@ -10,16 +10,16 @@ const LikedProperties = () => {
     .then(r => r.json())
     .then(data => {
 
-      const likedOnes = data.filter(each => each.liked === "🖤")
-    
+      const likedOnes = data.filter(each => each.liked === "🖤");
       const likedOnesCards = likedOnes.map((val, index) => {
+
             const { location, type, imageURL} = val;
+
             return (
               <div className="likedContainer" key={index}>
                 <div className="img">
                     <img src={imageURL} alt="property" />
                 </div>
-        
                 <div className="text">
                   <div className="location flex">
                     <span style={{background: "#25b5791a", color: "#black", fontSize: "18px", }}>
@@ -30,9 +30,8 @@ const LikedProperties = () => {
                 </div>
               </div>
             )
-      
       })
-      setFavourites(likedOnesCards) 
+      setFavourites(likedOnesCards);
     })}, []
   );
 
