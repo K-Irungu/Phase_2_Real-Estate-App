@@ -11,11 +11,9 @@ export const Pages = () => {
   return (
     <>
     <Router>
-      <Header  />
+      <Header />
       <Switch>
-        <Route exact  path="/" >
-          <Home  />
-        </Route>
+        <Route exact  path="/"> <Home /> </Route>
         <Route path="/about" component={About}></Route>
         <Route path="/reviews" component={Reviews}></Route>
         <Route path="/likedProperties" component={LikedProperties}></Route>
