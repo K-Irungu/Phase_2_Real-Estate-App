@@ -20,6 +20,10 @@ The user can click a like button and add a specific listing to a list of “like
 The user can leave a review/comment on the website regarding the services provided by the company
 
 Link to live site on GitHub:
+I had trouble getting the live link to GitHub pages to work. Each time the site only displayed the README.md file.
+I have attached below the link to the netlify app.
+Netlify Link: 
+https://polite-beijinho-7b70f5.netlify.app
 
 
 Copyright and License infromation:
