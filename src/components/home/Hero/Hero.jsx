@@ -13,8 +13,6 @@ import Heading from '../../common/heading'
 //The function handleReset sets the filters to an empty string.
 
 
-
-
 const Hero = ({ handleFilter }) => {
 
     const [searchInfo, setSearchInfo] = useState( {city: ""})
@@ -32,29 +30,23 @@ const Hero = ({ handleFilter }) => {
         handleFilter('')    
     }
 
-
-  return (
-    <>
-    <section className='hero'>
-        <div className="container">
-
-            <Heading title="Find Your Next Home" subtitle="Search property located in your city here" />
-            <form  className="flex" onSubmit={handleSubmit} >
-                
-                <div className="box">
-                    <span>City</span>
-                    <input type="text" name="city" placeholder='City' value={searchInfo.city} onChange={handleChange}/>
+    return (
+        <>
+            <section className='hero'>
+                <div className="container">
+                    <Heading title="Find Your Next Home" subtitle="Search property located in your city here" />
+                    <form  className="flex" onSubmit={handleSubmit} > 
+                        <div className="box">
+                            <span>City</span>
+                            <input type="text" name="city" placeholder='City' value={searchInfo.city} onChange={handleChange}/>
+                        </div>
+                        <button type="submit" className='btn'> Search </button>
+                        <button onClick={handleReset} className='reset'> Reset </button>
+                    </form>
                 </div>
-                
-                <button type="submit" className='btn'> Search </button>
-                <button onClick={handleReset} className='reset'> Reset </button>
-
-            </form>
-
-        </div>
-    </section>
-    </>
+            </section>
+        </>
     )
 }
 
-export default Hero
+export default Hero;
