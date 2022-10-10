@@ -6,8 +6,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 999;
-    
-
 }
 
 header img {
@@ -20,9 +18,9 @@ header a {
     transition: 0.5s;
     font-weight: 500;
 }
+
 header a:hover { 
     color: #27ae60;
-
 }
 
 
