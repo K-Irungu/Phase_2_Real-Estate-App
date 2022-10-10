@@ -20,22 +20,17 @@ const nav = [
     text: "liked properties",
     path: "/likedProperties",
   }
-  
-
 ]
 
 // Create links with the above paths
 const navigationList = nav.map((list, index) => (
-
   <li key={index} >
     <Link to={list.path}> {list.text} </Link>
   </li>
-
 ))
 
 
 const Header = ( ) => {
-
   return (
     <header>
         <div className='container flex'>
@@ -57,4 +52,4 @@ const Header = ( ) => {
   )
 }
 
-export default Header
+export default Header;
