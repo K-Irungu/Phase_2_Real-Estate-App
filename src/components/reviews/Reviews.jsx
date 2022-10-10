@@ -3,18 +3,17 @@ import Back from "../common/Back"
 import image from "../images/Familypic.jpeg"
 import "./Reviews.css"
 
-
 const Reviews = () => {
-  const [availableReviews, setAvailableReviews] = useState()
 
+  const [availableReviews, setAvailableReviews] = useState()
   useEffect(() => {
     fetch("https://real-estate-app-build.herokuapp.com/reviews")
     .then(r => r.json())
     .then(data => {
       const reviews = data.map((val, index) => {
         const { author, date, text } = val;
+
         return(
-          
           <div className="box shadow" key={index}>
             <div className="reviewsText">
               <h1>{author}</h1>
@@ -22,13 +21,12 @@ const Reviews = () => {
               <h5>{text}</h5>
             </div>
           </div>
-
         )
+
       })
-    setAvailableReviews(reviews)
+    setAvailableReviews(reviews);
     })},
   [availableReviews]);
-
 
   const [formData, setFormData] = useState({
     name: "",
@@ -75,10 +73,6 @@ const Reviews = () => {
       
   }
 
-
-
-
-
   return (
     <>
     <section className="reviews mb">
@@ -96,12 +90,10 @@ const Reviews = () => {
                 <label for="text">Type Review Here</label>
                 <textarea name="text" id="" cols="30" rows="10"  value={formData.text}  onChange={handleChange}></textarea>
                 <button>Submit Review</button>
-
             </form>
         </div>
     </section> 
     </>
   )
 }
-
-export default Reviews
+export default Reviews;
