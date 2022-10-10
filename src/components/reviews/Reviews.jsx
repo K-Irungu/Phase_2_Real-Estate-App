@@ -90,10 +90,11 @@ const Reviews = () => {
                 <div>
                     <label for="name">Name</label>
                     <input type="text"  name="name" id="" value={formData.name} onChange={handleChange}/>
-                    <label for="date">Date</label>
-                    <input type="text" placeholder='(dd/mm/yy)' name="date" id="" value={formData.date}  onChange={handleChange}/>
+                    <label for="date">Date(dd/mm/yy)</label>
+                    <input type="text"  name="date" id="" value={formData.date}  onChange={handleChange}/>
                 </div>
-                <textarea name="text" id="" cols="30" rows="10" placeholder='Type review here' value={formData.text}  onChange={handleChange}></textarea>
+                <label for="text">Type Review Here</label>
+                <textarea name="text" id="" cols="30" rows="10"  value={formData.text}  onChange={handleChange}></textarea>
                 <button>Submit Review</button>
 
             </form>
