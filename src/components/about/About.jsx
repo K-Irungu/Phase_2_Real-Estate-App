@@ -14,11 +14,12 @@ const About = () => {
           <div className="left row">
             <Heading title="Our Agency Story" subtitle="Check out our company story and work process"/>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Goldmark Realty was incorporated in the year 2000 with the aim to develop well-designed, competitively priced real estate in Kenya.
             </p>
 
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Over the past couple of decades, we have been consistent in our objective of contributing our quota to the development of Kenya's economy as well as the state of living for many individuals and corporate clients through invesment in real estate.
+              Our portfolio is well-balanced, comprising a combination of residential, commercial and mixed-use properties. We have managed to gain gppd reputation in the real estate industry as we deliver a service that provides integrity, professionalism and peace of mind to our clients.
             </p>
           </div>
 
