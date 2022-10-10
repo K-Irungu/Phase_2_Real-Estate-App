@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+Project Name: Real Estate Web Application
+Author Name: Kevin Irungu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description of Project: 
+This application is an interactive website designed for the Real Estate industry to enable a given Real Estate Company to display their listings on the website.
 
-## Available Scripts
+The primary focus is to provide a user interface with a search engine for customers to search for listings that meet their specific needs. Property listings are displayed in a customized grid format and the user can click on any to view the property’s description and photographs. This application also provides a “like” feature to save a selected listing to a list of “liked”  properties while the user browses other options on the Real Estate website.
 
-In the project directory, you can run:
+On a separate page, the user can fill a form and leave a review/comment regarding the service provided by the company.
 
-### `npm start`
+Problem Statement:
+There are many real estate websites on the internet but the goal here is to develop something efficient using React and Javascript to enhance already existing features on the internet while doing away with obtrusive and non essential features. The main emphasis is to provide a user-friendly search engine for showing desired results on the GUI, while also providing information regarding the company that would be useful to potential clients.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Solution:
+Create an online application/platform that allows users to search for property listings based on their specific needs. 
+User stories:
+The user can search for a property and filter through the listings based on what they are looking for in a property. (Location, for this particular instance)
+The user can click on a listing and view the property’s description and photographs.
+The user can click a like button and add a specific listing to a list of “liked” properties while they continue to browse other options on the website.
+The user can leave a review/comment on the website regarding the services provided by the company
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
