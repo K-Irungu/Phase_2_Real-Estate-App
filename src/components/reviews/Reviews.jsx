@@ -88,8 +88,10 @@ const Reviews = () => {
             <form onSubmit={handleSubmit} className="shadow">
                 <h4>Fill up the form</h4>
                 <div>
-                    <input type="text" placeholder='Name' name="name" id="" value={formData.name} onChange={handleChange}/>
-                    <input type="text" placeholder='Date (dd/mm/yy)' name="date" id="" value={formData.date}  onChange={handleChange}/>
+                    <label for="name">Name</label>
+                    <input type="text"  name="name" id="" value={formData.name} onChange={handleChange}/>
+                    <label for="date">Date</label>
+                    <input type="text" placeholder='(dd/mm/yy)' name="date" id="" value={formData.date}  onChange={handleChange}/>
                 </div>
                 <textarea name="text" id="" cols="30" rows="10" placeholder='Type review here' value={formData.text}  onChange={handleChange}></textarea>
                 <button>Submit Review</button>
